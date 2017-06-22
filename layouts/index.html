@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+    {{ partial "navbar.html" . }}
+
+    <div class="jumbotron">
+        <div class="container">
+            <div id="jumbotron-title" class="text-center">
+                <h2>高専カンファレンス✕メディアマーケット</h2>
+                <h2>#kosenconf-108mediamarket</h2>
+                2017年9月16日(土) 川崎市産業振興会館
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <h2>「やりたい」ことを、「やる」。</h2>
+            <h2>現役高専生・高専OBによる「作品」頒布及び発表会、開催決定！</h2>
+        </div>
+        <div class="row" style="padding-top:20px">
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/d/embed?mid=143wnTlGqxYZYCdy4Zu8qzqfFzRo" width="100%" height="280" frameborder="0"></iframe>
+            </div>
+            
+            <div class="col-md-6">
+                <h3>開催概要</h3>
+                <ul>
+                    <li>日時：平成29年9月16日(土) 13時〜18時</li>
+                    <li>場所：川崎市産業振興会館 4階企画展示場<br>
+                        (〒212-0013 神奈川県川崎市幸区堀川町66-20)
+                    </li>
+                    <br>
+                    <li>一般参加費：500円(パンフレット代)</li>
+                    <li>サークル参加費：社会人5000円、学生3500円</li>
+                    <li>出展サークル数：最大50組</li>
+                    <li>サークル参加申込期間：2017年4月24日〜5月15日</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>最新情報</h2>
+                {{ range $name, $page := first 3 (where .Site.Pages "Section" "news") }}
+                {{ partial "headline.html" $page }}
+                {{ end }}
+
+                <a href="/news/" class="archives">>> 過去のお知らせ</a>
+            </div>
+        </div>
+    </div>
+
+{{ partial "footer.html" . }}

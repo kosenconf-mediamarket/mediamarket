@@ -1,0 +1,56 @@
+body {
+    min-height: 100%;
+    padding-top: 60px;
+    position: relative;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+.jumbotron{
+    background: url("/img/jumbotron.jpg");
+    background-size: cover;
+}
+
+#jumbotron-title{
+    color: white;
+}
+
+.maps {
+    display: block;
+    margin: 10px 60px 10px 60px;
+    padding: 0;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 450px;
+}
+
+@media (max-width: 900px){
+    .maps {
+        margin: 0;
+    }
+
+    .maps iframe {
+        height: 300px;
+    }
+}
+
+.content { 
+    min-height: calc(100vh - 160px);
+}
+
+
+footer {
+    padding-top: 20px;
+    height: 60px;
+    bottom: 20px
+}

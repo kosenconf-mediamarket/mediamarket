@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circles on 高専カンファレンス✕メディアマーケット</title>
+    <link>https://kosenconf-mediamarket.github.io/circles/index.xml</link>
+    <description>Recent content in Circles on 高専カンファレンス✕メディアマーケット</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <atom:link href="https://kosenconf-mediamarket.github.io/circles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>サークル申込</title>
+      <link>https://kosenconf-mediamarket.github.io/circles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kosenconf-mediamarket.github.io/circles/</guid>
+      <description>
+
+&lt;h3 id=&#34;この先は参加申請フォームへ進みます&#34;&gt;この先は参加申請フォームへ進みます&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;参加申請された内容は、プライバシーポリシーに従って取り扱います。&lt;/li&gt;
+&lt;li&gt;参加申請が完了しますと、受信確認メールを連絡先のメールアドレスへ自動送信いたします。&lt;br /&gt;
+もし、受信確認メールが届かない場合はメールの受信拒否設定や、迷惑メールとして誤って処理されていないかの確認をした上で、お問い合わせフォームよりお問い合わせをお願いします。&lt;/li&gt;
+&lt;li&gt;サークルカットのフォーマットは&lt;a href=&#34;https://drive.google.com/open?id=0B5Ex3Ivj8-J4X2JuYVBKaDQtWUU&#34;&gt;こちら&lt;/a&gt;からダウンロードをお願いします。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;input type=&#34;button&#34; class=&#34;btn btn-primary btn-lg&#34; onclick=&#34;window.open(&#39;https://goo.gl/forms/V2dJS4WePqUOe8pB2&#39;)&#34; value=&#34;参加申請フォームへ&#34;&gt;&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
